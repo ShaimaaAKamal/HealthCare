@@ -3,6 +3,7 @@
     --siteDark:#393839;
     --siteGray:#818181;
     --borderColor:#EDEEEE;
+    --sectiobbg:#F5F4F6;
 }
 
 .text-site{
@@ -49,6 +50,9 @@
     border-bottom:1px solid var(--borderColor);
 }
 
+.nav{
+    z-index: 3;
+}
 .navbar-nav .nav-link.active{
     color:var(--siteColor) !important;
 }
@@ -92,6 +96,16 @@
     background-color: var(--borderColor);
     color:var(--siteDark) !important;
     top:-8px;
+}
+
+.bg-about{
+    background-color: var(--sectiobbg);
+}
+
+#About{
+    background-image: url("../images/about-bg.jpg");
+    background-size: cover;
+    background-position: center top;
 }
 
 @media screen and (min-width:992px){
