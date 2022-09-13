@@ -141,7 +141,9 @@
     color:var(--siteColor);
 }
 
-
+.form-control,.form-select{
+    background-color: #F9F9F9;
+}
 @media screen and (min-width:992px){
     .parentContainer{
         width:80%;

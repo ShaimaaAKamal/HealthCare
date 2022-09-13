@@ -15,7 +15,7 @@ function myFunction() {
     document.getElementsByClassName("nav")[0].style.top=0;
   }
   else {document.getElementsByClassName("nav")[0].style.top=null}
-  localStorage.setItem('scroll', JSON.stringify(original));
+  localStorage.setItem('scroll', JSON.stringify(document.documentElement.scrollTop));
 
 }
 
