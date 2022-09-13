@@ -1,0 +1,48 @@
+:root{
+    --siteColor:#A5C323;
+    --siteDark:#393839;
+    --siteGray:#818181;
+}
+
+.text-site{
+    color:var(--siteColor);
+}
+.text-gray{
+    color:var(--siteGray)
+}
+
+.text-siteDark{
+    color:var(--siteDark);
+}
+
+.bg-site{
+    background-color: var(--siteColor);
+}
+
+.fs-8{
+    font-size:.7rem;
+}
+.fs-sm{
+    font-size:.6rem;
+}
+
+.parentContainer{
+    width:95%;
+}
+
+.border-site{
+    border-right:none;
+}
+
+
+
+@media screen and (min-width:992px){
+    .parentContainer{
+        width:80%;
+    }
+
+    .border-site{
+        border-right:.25px solid var(--siteColor);
+    }
+    
+}
