@@ -29,6 +29,10 @@
     background-color:#4165AC;
 }
 
+.bg-doctor{
+    background-color: var(--sectiobbg);
+}
+
 .fs-8{
     font-size:.7rem;
 }
@@ -37,6 +41,9 @@
 }
 .fs-sm{
     font-size:.6rem;
+}
+.fs-m{
+    font-size:.9rem;
 }
 
 .parentContainer{
@@ -48,6 +55,11 @@
 }
 .borderHeader{
     border-bottom:1px solid var(--borderColor);
+}
+
+.borderDoctor{
+    border-bottom:1.5px solid #E9E9E9;
+
 }
 
 .nav{
