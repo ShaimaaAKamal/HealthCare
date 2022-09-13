@@ -120,6 +120,25 @@
     background-position: center top;
 }
 
+.doctorSocials{
+    bottom:-100px;
+    transition:all 1s;
+}
+
+.doctorSocials i {
+    transition: all 1s;
+}
+
+.doctorSocials i:hover{
+    background-color:#4165AC !important ;
+    color:#fff !important;
+}
+.doctorCard:hover .doctorSocials{
+    bottom:100px;
+}
+
+
+
 @media screen and (min-width:992px){
     .parentContainer{
         width:80%;
