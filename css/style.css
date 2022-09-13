@@ -91,7 +91,7 @@
 .btnHover:hover{
     background-color: var(--borderColor);
     color:var(--siteDark) !important;
-    top:-5px;
+    top:-8px;
 }
 
 @media screen and (min-width:992px){
