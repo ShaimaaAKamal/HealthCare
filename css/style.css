@@ -152,6 +152,9 @@
     width:10%
 }
 
+.footerLink:hover{
+    color:#4165AC !important
+}
 
 
 @media screen and (min-width:992px){
