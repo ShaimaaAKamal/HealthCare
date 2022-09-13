@@ -144,6 +144,9 @@
 .form-control,.form-select{
     background-color: #F9F9F9;
 }
+.appHover:hover{
+    background-color: var(--siteDark);
+}
 @media screen and (min-width:992px){
     .parentContainer{
         width:80%;
