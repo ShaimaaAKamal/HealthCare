@@ -137,6 +137,9 @@
     bottom:100px;
 }
 
+.newTitle:hover{
+    color:var(--siteColor);
+}
 
 
 @media screen and (min-width:992px){
