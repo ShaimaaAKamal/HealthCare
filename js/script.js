@@ -13,7 +13,7 @@ function myFunction() {
 
 window.onload=function(){
  let original = JSON.parse(localStorage.getItem('scroll'));
- if (scroll > 34 ) {
+ if (original > 34 ) {
   document.getElementsByClassName("nav")[0].style.top=0;
 }
 else {document.getElementsByClassName("nav")[0].style.top=null}
