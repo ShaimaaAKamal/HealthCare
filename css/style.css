@@ -61,6 +61,9 @@
     border-bottom:1.5px solid #E9E9E9;
 
 }
+.h-30{
+    height:300px;
+}
 
 .nav{
     z-index: 3;
